@@ -1,12 +1,19 @@
-# React + Vite
+# Admin Lopez Bautista - Frontend de Administración
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
+Frontend para administración del sistema: gestión de usuarios y platos, autenticación y panel privado.
 
-Currently, two official plugins are available:
+## Tecnologías
+- React
+- React Router
+- Tailwind CSS
+- DaisyUI
+- Axios
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalación y ejecución
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/bautistaLopez04/admin-lopezbautista-frontend.git
+cd admin-lopezbautista-frontend
+npm install
+npm run dev
