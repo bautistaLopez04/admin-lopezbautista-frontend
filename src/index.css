@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+.portada-principal h1{
+    font-family: 'Parisienne';
+    font-size: 64px;
+}
+  
+.portada-principal button{
+    font-family: 'Playfair Display';
+}
+
+.portada-principal {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .boton-carta {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .boton-carta:hover {
+    background-color: white;
+    color: black;
+  }
+
+
+html {
+  scroll-behavior: smooth;
+}
